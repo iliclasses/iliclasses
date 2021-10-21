@@ -26,9 +26,18 @@
     }
 
     li {
-      background: url('images/WhatsApp.png') no-repeat right;
+      background-repeat: no-repeat;
+      background-position: right;
       padding: 30px 50px;
       list-style: none;
+    }
+
+    li.WhatsApp {
+      background-image: url('images/WhatsApp.png')
+    }
+
+    li.GoogleMeet {
+      background-image: url('images/google-meet.png')
     }
 
     a {
@@ -46,9 +55,11 @@
   </header>
   <main>
     <ul>
-      <li><a href="https://chat.whatsapp.com/LyXl3gwellfIiB2V9JJXRy" title="گروه اطّلاع‌رسانی">گروه اطّلاع‌رسانی</a></li>
-      <li><a href="https://wa.me/message/ZDX7YVUP6NBCJ1" title="ارسال تکالیف">ارسال تکالیف</a></li>
+      <li class="WhatsApp"><a href="https://chat.whatsapp.com/LyXl3gwellfIiB2V9JJXRy" title="گروه اطّلاع‌رسانی">گروه اطّلاع‌رسانی</a></li>
+      <li class="WhatsApp"><a href="https://wa.me/message/ZDX7YVUP6NBCJ1" title="ارسال تکالیف">ارسال تکالیف</a></li>
+      <li class="GoogleMeet"><a href="https://meet.google.com/itc-dfeg-juf" title="کلاس گوگل میت">کلاس گوگل میت</a></li>
     </ul>
   </main>
 </body>
+
 </html>
