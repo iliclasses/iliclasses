@@ -36,11 +36,11 @@
       font-family: Arial;
     }
 
-    tbody tr:nth-child(odd) {
+    tbody tr:nth-child(odd) :not(th) {
       background: #F2F2F2;
     }
 
-    tbody tr:nth-child(even) {
+    tbody tr:nth-child(even) :not(th) {
       background: #E6E6E6;
     }
 
@@ -50,9 +50,8 @@
       white-space: nowrap;
     }
 
-    tbody th:first-child {
+    th {
       text-align: left;
-      background: white;
     }
 
     a {
